@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './Home.js'
-import Header from './Header.js'
+import Home from './Home'
+import Header from './Header'
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         
         <Header />
         <Home />
+        <Footer />
 
           {/* Header */}
 
