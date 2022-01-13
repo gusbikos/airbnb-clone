@@ -8,9 +8,11 @@ const SearchResult = ({ img, location, title, description, star, price, total })
     return (
         <div className='searchResult'>
             <img ssrc={img} alt='' />
-            <FavoriteBorderIcon className='searchResult-heart'
+            <FavoriteBorderIcon className='searchResult-heart'/>
+            
+            <div className='searchResult-info'>
 
-            />
+            </div>
         </div>
     )
 }
